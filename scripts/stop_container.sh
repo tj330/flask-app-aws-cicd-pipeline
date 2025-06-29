@@ -10,3 +10,5 @@ if [ -n "$container_ids" ]; then
 else
   echo "No running containers found."
 fi
+
+exit 0
