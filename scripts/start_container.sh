@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /opt/codedeploy-agent/deployment-root/deployment-*/deployment-archive
-
 set -e
 
 # Pull the Docker image from Docker Hub
