@@ -11,7 +11,7 @@ else
   echo "No running containers found."
 fi
 
-# Build Docker image
+# Build the Docker image
 docker build -t simple-python-flask-app .
 
 # Run the new Docker container
